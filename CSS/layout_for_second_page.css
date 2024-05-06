@@ -3,19 +3,28 @@ body {
 }
 
 .work {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 2%;
     background-color: rgb(14, 14, 14);
     width: 80%;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     height: fit-content;
-    margin: 10%;
     border-radius: 25px;
     align-items: center;
     vertical-align: middle;
 }
 
 .background_image {
+    align-self: center;
     border-radius: 25px;
-    margin: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
 }
 
 .Name {
@@ -63,7 +72,19 @@ body {
     margin: 0;
 }
 
+.title_desc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
 .title_show{
+    margin-top: 10%;
     color: white;
     margin-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
